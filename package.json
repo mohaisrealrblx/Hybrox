@@ -1,0 +1,30 @@
+{
+  "name": "Hybrox",
+  "version": "1.0.1",
+  "description": "The official framework and bot of Hybrox.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "LocalStart": "node -r dotenv/config index.js"
+  },
+  "author": "MohaIsReal",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord-buttons": "^4.0.0",
+    "discord-buttons-pages": "^1.1.7",
+    "discord-menu-embed": "^1.0.2",
+    "discord-reply": "^0.1.2",
+    "discord-rpc": "^4.0.1",
+    "discord-slash-commands": "^1.2.4",
+    "discord.js": "^12.5.1",
+    "discord.js-typing-stop": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.0.0",
+    "utils": "^0.3.1"
+  }
+}
