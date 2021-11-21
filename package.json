@@ -7,6 +7,9 @@
     "start": "node index.js",
     "LocalStart": "node -r dotenv/config index.js"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "author": "MohaIsReal",
   "license": "ISC",
   "dependencies": {
